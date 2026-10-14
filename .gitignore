@@ -1,0 +1,19 @@
+# Office / LibreOffice lock and temp files
+~$*
+.~lock.*#
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# AI agent working files
+.omo/

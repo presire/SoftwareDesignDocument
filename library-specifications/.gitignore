@@ -1,0 +1,21 @@
+# Office / LibreOffice lock and temp files
+~$*
+.~lock.*#
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Local working data
+venv/
+__pycache__/
+work/
