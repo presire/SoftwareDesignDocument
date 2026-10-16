@@ -26,6 +26,9 @@
 ├── Functional_Overview/                # 機能概要書
 │   ├── README.md
 │   └── [機能概要書]掲示板閲覧・投稿.xlsx
+├── Measurement_Flow_Specification/     # 測定フロー設計書
+│   ├── README.md
+│   └── [測定フロー設計書]MeasCore_DMM抵抗測定.xlsx
 ├── NDA/                                # 秘密保持契約書 (外注先用)
 │   ├── README.md
 │   ├── 秘密保持契約書_外注先用.docx
@@ -88,6 +91,15 @@
 | ファイル | 内容 |
 |---|---|
 | `[機能概要書]掲示板閲覧・投稿.xlsx` | 掲示板の閲覧・投稿機能を題材にした見本 (画面6件・全21シート) |
+
+### [Measurement_Flow_Specification](Measurement_Flow_Specification/README.md) - 測定フロー設計書
+
+プログラムが計測器を制御して行う測定処理 (計測器の接続・初期化、測定、合否判定、結果保存) の流れを記載する書類です。  
+1冊で1つの測定フローを扱います。  
+
+| ファイル | 内容 |
+|---|---|
+| `[測定フロー設計書]MeasCore_DMM抵抗測定.xlsx` | 架空の「電子部品特性測定システム」の測定制御部`MeasCore`による、DMM (デジタルマルチメータ) の4端子抵抗測定を題材にした見本 (PyVISA / SCPI)<br>測定概要、概要測定フロー、詳細フロー (計測器の接続・初期化、1点の測定)、判定・分岐一覧、入出力処理設計 |
 
 ### [NDA](NDA/README.md) - 秘密保持契約書 (外注先用)
 
